@@ -44,7 +44,7 @@ lib/
 
 ### Prerequisites
 
-- Flutter 3.19.4 or above
+- Flutter 3.19.4 or above.
 - Dart SDK
 - Android Studio / Xcode for running on emulators or devices
 
