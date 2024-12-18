@@ -31,6 +31,8 @@ lib/
 │   ├── enums/          # Enums used throughout the app
 │   ├── repository/     # Repositories for data handling logic
 │   ├── ui/             # UI screens and widgets
+│   │   ├── container/  # General Container screen-specific widgets and pages
+│   │   ├── init/       # First Wellcome screen-specific widgets and pages
 │   │   ├── task/       # Task screen-specific widgets and pages
 │   ├── utils/          # Helper classes and extensions
 │   └── main.dart       # Entry point of the application
@@ -90,10 +92,12 @@ Manages the business logic and state for tasks.
 - **Events**:
 
   - `LoadTasksEvent`
+  - `UpdateTaskEvent`
   - `AddTaskEvent`
   - `DeleteTaskEvent`
-  - `CompleteTaskEvent`
+  - `CompleteOrUncompleteTaskEvent`
   - `ChangeFilterEvent`
+  - `CurrentTaskEvent`
 
 - **States**:
   - `TaskStateEnum.initial`
@@ -107,6 +111,7 @@ Represents a task in the application with the following fields:
 
 - `id`: Unique identifier
 - `title`: Task title
+- `description`: Task description
 - `date`: Creation or due date
 - `isComplete`: Boolean indicating if the task is completed
 
