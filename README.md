@@ -37,7 +37,7 @@ lib/
 │   ├── utils/          # Helper classes and extensions
 │   └── main.dart       # Entry point of the application
 ├── test/
-│   └── test.mocks.dart # Auto-generated mocks for tests
+│   └── bloc_test.mocks.dart # Auto-generated mocks for tests
 ```
 
 ---
@@ -55,7 +55,7 @@ lib/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hmmunioz/SohoTest
+   git clone https://github.com/hmmunioz/SohoTest.git
    ```
 
 2. Install dependencies:
