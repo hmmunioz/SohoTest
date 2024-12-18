@@ -54,7 +54,6 @@ lib/
 
    ```bash
    git clone <repository-url>
-   cd task-management-app
    ```
 
 2. Install dependencies:
